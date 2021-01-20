@@ -1,0 +1,73 @@
+.Post{
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0px 5px 7px -7px rgba(0, 0 ,0 ,.75);
+}
+.Post__top{
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 15px;
+}
+.Post__avatar{
+  margin-right: 10px;
+}
+.Post__comments{
+  padding: 1em;
+}
+.comment{
+  display: flex;
+  align-items: center;
+}
+.comment h3,p{
+  margin: 0;
+}
+.button__like.active{
+  color:red;
+}
+.Post__comment-button{
+  background:#2e81f4;
+}
+.Post__sendCommend{
+  display: flex;
+}
+.Post__comment{
+  flex:1;
+}
+.Post__image img{
+  width: 100%;
+}
+.Post__topInfo h3{
+  font-size: medium;
+  margin: 0;
+}
+.Post__topInfo p{
+  font-size: small;
+  color: gray;
+  margin: 0;
+}
+.Post__options{
+  border-top: 1px solid lightgray;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: medium;
+  color: gray;
+  cursor: pointer;
+  padding: 10px;
+}
+.Post__option{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  flex:1;
+}
+.Post__option:hover{
+  background-color: #eff2f5;
+  border-radius: 10px;
+}
+.Post__option p{
+  margin-left: 10px;
+}

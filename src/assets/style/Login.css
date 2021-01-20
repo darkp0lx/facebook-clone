@@ -1,0 +1,17 @@
+
+.Login__logo{
+  width: 150px;
+}
+.Login{
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+.Login div{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.Login__facebook{
+  height: 150px;
+}
