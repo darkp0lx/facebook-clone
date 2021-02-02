@@ -38,7 +38,7 @@ const Login = () => {
         color="primary"
         href="#contained-buttons"
       >
-        login
+        Iniciar Sesión
       </Button>
     </div>
   );
